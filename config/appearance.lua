@@ -18,8 +18,15 @@ return {
 	-- Colors
 	colors = colors,
 
+	-- Background image
+	window_background_image = "/Users/ela/Documents/WALLPAPER/cyberpunk_girl.jpg",
+	window_background_image_hsb = {
+		brightness = 0.02, -- entre 0.0 y 1.0, más bajo = más oscuro
+		hue = 1.0,
+		saturation = 1.0,
+	},
 	-- Window Transparency & Blur (macOS)
-	window_background_opacity = 0.90, -- Ajusta entre 0.7 - 0.95
+	window_background_opacity = 1, -- Ajusta entre 0.7 - 0.95
 	macos_window_background_blur = 30, -- Ajusta entre 10 - 50
 
 	-- Window

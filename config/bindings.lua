@@ -96,9 +96,7 @@ local key_tables = {
 	},
 }
 
--- ============================================
--- 🖱️ MOUSE
--- ============================================
+--  MOUSE
 local mouse_bindings = {
 	{
 		event = { Up = { streak = 1, button = "Left" } },
